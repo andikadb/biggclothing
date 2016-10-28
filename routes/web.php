@@ -14,3 +14,4 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::resource('master/tags', 'Master\\TagsController');

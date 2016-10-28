@@ -44,13 +44,13 @@ desired effect
         <!-- Main content -->
         <section class="content">
             <!-- Your Page Content Here -->
-            @yield('main-content')
+            @yield('content')
         </section><!-- /.content -->
     </div><!-- /.content-wrapper -->
 
     @include('layouts.partials.controlsidebar')
 
-    @include('layouts.partials.footer')
+    {{--@include('layouts.partials.footer')--}}
 
 </div><!-- ./wrapper -->
 
